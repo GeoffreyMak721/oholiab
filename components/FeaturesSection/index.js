@@ -28,14 +28,14 @@ export default function FeaturesSection() {
         </div>
          */}
         <div className="row">
-          <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <div className="col-lg-5 col-md-12 col-sm-12 col-xs-12">
             <div
               className="content-right text-left wow fadeInLeft animated"
               data-wow-offset="10"
             >
               <div className="box-item left">
                 <span className="icon">
-                  <i class="far fa-building"></i>
+                  <i className="far fa-building"></i>
                 </span>
                 <div className="text">
                   <h4>Construction Ecologique</h4>
@@ -48,7 +48,7 @@ export default function FeaturesSection() {
               </div>
               <div className="box-item left">
                 <span className="icon">
-                  <i class="fas fa-bus"></i>
+                  <i className="fas fa-bus"></i>
                 </span>
                 <div className="text">
                   <h4>Transport International</h4>
@@ -61,7 +61,7 @@ export default function FeaturesSection() {
               </div>
               <div className="box-item left">
                 <span className="icon">
-                  <i class="fas fa-car-side"></i>
+                  <i className="fas fa-car-side"></i>
                 </span>
                 <div className="text">
                   <h4>Location Voitures</h4>
@@ -74,7 +74,7 @@ export default function FeaturesSection() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+          <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12">
             <div className="container" style={{ paddingTop: "3.5em" }}>
               <div className="section-header">
                 <h2
@@ -96,13 +96,13 @@ export default function FeaturesSection() {
                 <div className="col-sm-6 col-xs-12">
                   <div className="text">
                     <p>
-                      Zenith Ressort de Kinshasa est le fruit d’un dûr labeur
-                      d’un digne fils du pays, qui n’a ni hérité d’un bien, ni
-                      des millions de la part d’une quelconque personne, mais
-                      qui a forgé sa vie par la peine, par la passion et par la
-                      rage de vaincre tel est Monsieur Nzau Ngoma Camille qui
-                      incarne toute une génération et qui est à la tête de
-                      Zénith Ressort de Kinshasa sarl.
+                      Oholiab Sarl est le fruit d’un dûr labeur d’un digne fils
+                      du pays, qui n’a ni hérité d’un bien, ni des millions de
+                      la part d’une quelconque personne, mais qui a forgé sa vie
+                      par la peine, par la passion et par la rage de vaincre tel
+                      est Monsieur Nzau Ngoma Camille qui incarne toute une
+                      génération et qui est à la tête de Zénith Ressort de
+                      Kinshasa sarl.
                     </p>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function FeaturesSection() {
                     data-wow-duration="1000ms"
                     data-wow-delay="400ms"
                   >
-                    <i class="fas fa-phone"></i> NOUS CONTACTER
+                    <i className="fas fa-phone"></i> NOUS CONTACTER
                   </a>
                 </div>
                 <div className="col-sm-4 col-xs-12"></div>

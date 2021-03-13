@@ -40,14 +40,14 @@
     top: 5px;
   }
   .bg-faded {
-    background: #fff!important;
+    background: #fff !important;
   }
   #video-area .contents h1 {
     font-size: 30px;
     line-height: 48px;
   }
   #features .content-right span {
-    float: none;
+    /* float: none; */
   }
   #features .content-left span {
     float: none;
@@ -64,7 +64,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-faded {
-    background: #fff!important;
+    background: #fff !important;
   }
   .section-header .section-title {
     font-size: 20px;

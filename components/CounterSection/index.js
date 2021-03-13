@@ -10,13 +10,13 @@ export default function CounterSection() {
             <div className="wow fadeInUp" data-wow-delay=".2s">
               <div className="facts-item">
                 <div className="icon">
-                  <i className="lnr lnr-magic-wand"></i>
+                  <i className="lnr lnr-calendar-full" />
                 </div>
                 <div className="fact-count">
                   <h3>
-                    <span className="counter">100</span>%
+                    <span className="counter">36</span>
                   </h3>
-                  <h4>Faster</h4>
+                  <h4>Années Établies</h4>
                 </div>
               </div>
             </div>
@@ -25,13 +25,13 @@ export default function CounterSection() {
             <div className="wow fadeInUp" data-wow-delay=".4s">
               <div className="facts-item">
                 <div className="icon">
-                  <i className="lnr lnr-coffee-cup"></i>
+                  <i className="lnr lnr-license" />
                 </div>
                 <div className="fact-count">
                   <h3>
-                    <span className="counter">700</span>
+                    <span className="counter">250</span>
                   </h3>
-                  <h4>Cup of Coffee</h4>
+                  <h4>Projets Achevés</h4>
                 </div>
               </div>
             </div>
@@ -40,13 +40,13 @@ export default function CounterSection() {
             <div className="wow fadeInUp" data-wow-delay=".6s">
               <div className="facts-item">
                 <div className="icon">
-                  <i className="lnr lnr-user"></i>
+                  <i className="lnr lnr-user" />
                 </div>
                 <div className="fact-count">
                   <h3>
-                    <span className="counter">10000</span>+
+                    <span className="counter">1000</span>+
                   </h3>
-                  <h4>Active Clients</h4>
+                  <h4>Clients Active</h4>
                 </div>
               </div>
             </div>
@@ -59,9 +59,9 @@ export default function CounterSection() {
                 </div>
                 <div className="fact-count">
                   <h3>
-                    <span className="counter">1689</span>
+                    <span className="counter">237</span>
                   </h3>
-                  <h4>Peoples Love</h4>
+                  <h4>Personnes Nous Aimes</h4>
                 </div>
               </div>
             </div>

@@ -14,32 +14,18 @@ export default function inFooterSection() {
               <ul>
                 <li className="facebook">
                   <a href="#">
-                    <i className="fa fa-facebook"></i>
+                    <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li className="twitter">
                   <a href="#">
-                    <i className="fa fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </li>
-                <li className="google-plus">
-                  <a href="#">
-                    <i className="fa fa-google-plus"></i>
-                  </a>
-                </li>
+
                 <li className="linkedin">
                   <a href="#">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li className="pinterest">
-                  <a href="#">
-                    <i className="fa fa-pinterest"></i>
-                  </a>
-                </li>
-                <li className="dribbble">
-                  <a href="#">
-                    <i className="fa fa-dribbble"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
               </ul>
@@ -50,7 +36,7 @@ export default function inFooterSection() {
               data-wow-delay="0.3s"
             >
               <p>
-                Tous droit reservé &copy; 2021 - Oholiab Sarl - Developé par{" "}
+                Tous droits réservés &copy; 2021 - Oholiab Sarl - Developé par{" "}
                 <a rel="nofollow" href="https://mbokart-concept.net">
                   Mbok'art Concept
                 </a>

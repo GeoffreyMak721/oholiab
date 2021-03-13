@@ -4,13 +4,13 @@ export default function ContactSection() {
   return (
     <section id="contact" className="section">
       <div className="container">
-        <div className="row justify-content-md-center">
+        <div className="row ">
           <div
-            className="col-md-9 wow fadeInDown"
+            className="col-lg-8 col-xs-12 wow fadeInDown"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
           >
-            <div className="contact-block">
+            <div className="contact-block my-2">
               <div className="section-header">
                 <h2
                   className="section-title wow fadeIn"
@@ -92,6 +92,48 @@ export default function ContactSection() {
                   </div>
                 </div>
               </form>
+            </div>
+          </div>
+
+          <div
+            className="col-lg-4 col-xs-12 wow fadeInDown"
+            data-wow-duration="1000ms"
+            data-wow-delay="0.3s"
+          >
+            <div className="contact-block my-2">
+              <div className="contact_info">
+                <div className="contact_title mt-30">
+                  <h5 className="title">COORDONÉES</h5>
+                </div>
+                <p></p>
+
+                <div className="single_info d-flex">
+                  <div className="info_icon">
+                    <i className="far fa-map"></i>
+                  </div>
+                  <div className="info_content media-body">
+                    <p>Immeuble CTC/16 ème niveau</p>
+                  </div>
+                </div>
+                <div className="single_info d-flex">
+                  <div className="info_icon">
+                    <i className="fas fa-phone"></i>
+                  </div>
+                  <div className="info_content media-body">
+                    <p>+243 80 888 008 4</p>
+                    <p></p>
+                  </div>
+                </div>
+                <div className="single_info d-flex">
+                  <div className="info_icon">
+                    <i className="fas fa-envelope-open-text"></i>
+                  </div>
+                  <div className="info_content media-body">
+                    <p>info@oholiab-sarl.com</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

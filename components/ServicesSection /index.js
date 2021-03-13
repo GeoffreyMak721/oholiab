@@ -17,17 +17,13 @@ export default function ServicesSection() {
             className="section-subtitle wow fadeIn"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
-          >
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy <br />
-            nibh euismod tincidunt ut laoreet dolore magna.
-          </p>
+          ></p>
         </div>
         <div className="row">
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="0.2s">
               <div className="icon">
-                <i class="fas fa-gas-pump"></i>
+                <i className="fas fa-gas-pump"></i>
               </div>
               <h4>Pétrol et ses Dérivés</h4>
               <p>
@@ -39,7 +35,7 @@ export default function ServicesSection() {
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="0.4s">
               <div className="icon">
-                <i class="fas fa-building"></i>
+                <i className="fas fa-building"></i>
               </div>
               <h4>Construction de Bâtiments</h4>
               <p>
@@ -51,7 +47,7 @@ export default function ServicesSection() {
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="0.6s">
               <div className="icon">
-                <i class="fas fa-igloo"></i>
+                <i className="fas fa-igloo"></i>
               </div>
               <h4>Travaux de Fondation</h4>
               <p>
@@ -63,7 +59,7 @@ export default function ServicesSection() {
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="0.8s">
               <div className="icon">
-                <i class="fas fa-tools"></i>
+                <i className="fas fa-tools"></i>
               </div>
               <h4>Les Dernières Réparations Technologiques</h4>
               <p>
@@ -75,7 +71,7 @@ export default function ServicesSection() {
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="1s">
               <div className="icon">
-                <i class="fas fa-ship"></i>
+                <i className="fas fa-ship"></i>
               </div>
               <h4>Import-Export</h4>
               <p>
@@ -87,7 +83,7 @@ export default function ServicesSection() {
           <div className="col-md-4 col-sm-6">
             <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
               <div className="icon">
-                <i class="fas fa-car"></i>
+                <i className="fas fa-car"></i>
               </div>
               <h4>Location des Voitures</h4>
               <p>

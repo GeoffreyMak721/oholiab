@@ -17,10 +17,7 @@ export default function PortfolioSection() {
             className="section-subtitle wow fadeInDown"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
-          >
-            Fournie de solutions intégrées dans les secteurs du bâtiment, <br />
-            du pétrole et ses dérivés de l’infrastructure et de l’ingénierie
-          </p>
+          ></p>
         </div>
         <div className="row">
           <div className="col-md-12">
