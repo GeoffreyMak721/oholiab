@@ -4,7 +4,7 @@ export default function FeaturesSection() {
   return (
     <section
       id="features"
-      className="section"
+      className="section features"
       data-stellar-background-ratio="0.2"
     >
       <div className="container">

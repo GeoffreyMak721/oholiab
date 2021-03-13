@@ -29,7 +29,7 @@ export default function VideoPromoSection() {
                 tranquillité d’esprit tout au long de votre voyage en voiture de
                 location.
               </p>
-              <a href="#" className="btn btn-border">
+              <a href="#features" className="btn btn-border">
                 À Propos de Nous
               </a>
             </div>

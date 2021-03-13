@@ -47,7 +47,7 @@
     line-height: 48px;
   }
   #features .content-right span {
-    /* float: none; */
+    float: none;
   }
   #features .content-left span {
     float: none;

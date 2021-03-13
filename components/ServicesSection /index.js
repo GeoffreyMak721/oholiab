@@ -75,7 +75,7 @@ export default function ServicesSection() {
               </div>
               <h4>Import-Export</h4>
               <p>
-                Avec Zenith, comparez, réservez et gérez vos opérations
+                Avec Oholiab, comparez, réservez et gérez vos opérations
                 d’import–export.
               </p>
             </div>
@@ -87,7 +87,7 @@ export default function ServicesSection() {
               </div>
               <h4>Location des Voitures</h4>
               <p>
-                Zenith s’engage à vous offrir un service premium et une voiture
+                Oholiab s’engage à vous offrir un service premium et une voiture
                 de location qui vous conviennent.
               </p>
             </div>
