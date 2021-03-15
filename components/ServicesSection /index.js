@@ -92,6 +92,33 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
+
+          <div className="col-md-4 col-sm-6">
+            <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
+              <div className="icon">
+                <i className="fas fa-car"></i>
+              </div>
+              <h4>Construction Ecologique</h4>
+              <p>
+                Le matériau écologique» ou «matériau biosourcé» répond aux
+                critères techniques habituellement exigés des matériaux de
+                construction performances techniques et fonctionnelles, etc.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-md-4 col-sm-6">
+            <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
+              <div className="icon">
+                <i className="fas fa-bus"></i>
+              </div>
+              <h4>Transport International</h4>
+              <p>
+                Le transport international devient un jeu d’enfant. Demande de
+                cotation. Un formulaire entièrement dynamique pour vous guider.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -17,7 +17,9 @@ export default function PortfolioSection() {
             className="section-subtitle wow fadeInDown"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
-          ></p>
+          >
+            Aucun project n'est trop grand ou trop petit
+          </p>
         </div>
         <div className="row">
           <div className="col-md-12">

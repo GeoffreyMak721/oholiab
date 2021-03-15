@@ -28,9 +28,9 @@ export default function FeaturesSection() {
         </div>
          */}
         <div className="row">
-          <div className="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+          {/*   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div
-              className="content-right text-left wow fadeInLeft animated"
+              className="lg-content-right lg-text-left wow fadeInLeft animated"
               data-wow-offset="10"
             >
               <div className="box-item left">
@@ -74,15 +74,16 @@ export default function FeaturesSection() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <div className="container" style={{ paddingTop: "3.5em" }}>
+         */}
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="container">
               <div className="section-header">
                 <h2
-                  className="section-title wow fadeIn text-left"
+                  className="section-title wow fadeIn"
                   data-wow-duration="1000ms"
                   data-wow-delay="0.3s"
                 >
-                  Aucun <span>Projet</span> n’est trop Grand ou trop Petit
+                  Qui sommes <span>Nous?</span>
                 </h2>
                 <hr className="lines wow zoomIn" data-wow-delay="0.3s" />
                 <p

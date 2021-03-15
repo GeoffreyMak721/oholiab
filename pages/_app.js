@@ -23,6 +23,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Grayrids" />
         <title>Oholiab sarl</title>
 
+        <link
+          rel="shortcut icon"
+          href="/favicon.jpg"
+          type="image/jpg"
+        />
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/css/font-awesome.min.css" />
         <link rel="stylesheet" href="/css/line-icons.css" />

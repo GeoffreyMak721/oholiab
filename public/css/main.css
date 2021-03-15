@@ -496,6 +496,68 @@ a:not([href]):not([tabindex]):hover {
 .features .show-box img {
   width: 100%;
 }
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/* Horizontal line */
+.collapsible-link::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: "";
+  width: 2px;
+  height: 14px;
+  background: #fff;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded="true"]::after {
+  display: none;
+}
+
+.collapsible-link[aria-expanded="true"]::before {
+  top: 30px;
+}
+
+.collapse-header {
+  background-color: #350067;
+  border-radius: 0 !important;
+}
+
+.collapse-header span {
+  color: #fff;
+}
+
+.collapse-body {
+  padding: 0.5em;
+  border: 1px solid #eee;
+}
+
+.main-collapse {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+}
+
 /* ==========================================================================
    Screenshots Section Start
    ========================================================================== */

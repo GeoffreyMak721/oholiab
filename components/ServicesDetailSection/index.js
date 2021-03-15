@@ -25,14 +25,14 @@ export default function ServicesDetailSection() {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+          <div className="col-xl-4 col-sm-6 col-xs-12 blog-item">
             <div
               className="blog-item-wrapper wow fadeInUp"
               data-wow-delay="0.3s"
             >
               <div className="blog-item-img">
                 <a href="#contact">
-                  <img src="/img/blog/img1.jpg" alt="" />
+                  <img src="/img/blog/img4.jpeg" alt="" />
                 </a>
               </div>
               <div className="blog-item-text">
@@ -58,7 +58,7 @@ export default function ServicesDetailSection() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+          <div className="col-xl-4 col-sm-6 col-xs-12 blog-item">
             <div
               className="blog-item-wrapper wow fadeInUp"
               data-wow-delay="0.6s"
@@ -90,7 +90,7 @@ export default function ServicesDetailSection() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+          <div className="col-xl-4 col-sm-6 col-xs-12 blog-item">
             <div
               className="blog-item-wrapper wow fadeInUp"
               data-wow-delay="0.9s"
@@ -122,14 +122,14 @@ export default function ServicesDetailSection() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+          <div className="col-xl-4 col-sm-6 col-xs-12 blog-item">
             <div
               className="blog-item-wrapper wow fadeInUp"
               data-wow-delay="0.9s"
             >
               <div className="blog-item-img">
                 <a href="#contact">
-                  <img src="/img/blog/img3.jpg" alt="" />
+                  <img src="/img/blog/img1.jpg" alt="" />
                 </a>
               </div>
               <div className="blog-item-text">
