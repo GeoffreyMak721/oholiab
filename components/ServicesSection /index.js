@@ -5,24 +5,19 @@ export default function ServicesSection() {
     <section id="services" className="section">
       <div className="container">
         <div className="section-header">
-          <h2
-            className="section-title wow fadeIn"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          >
-            Nos <span>Services</span>
-          </h2>
-          <hr className="lines wow zoomIn" data-wow-delay="0.3s" />
-          <p
-            className="section-subtitle wow fadeIn"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          ></p>
+          <h2 className="section-title">NOS SERVICES</h2>
+          <span>Services</span>
+          <p className="section-subtitle">
+            Oholiab sarl met en votre dispositions plusieurs services variés.
+          </p>
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="0.2s"
+            >
+              <div className="icon color-1">
                 <i className="fas fa-gas-pump"></i>
               </div>
               <h4>Pétrol et ses Dérivés</h4>
@@ -32,9 +27,12 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="0.4s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="0.4s"
+            >
+              <div className="icon color-2">
                 <i className="fas fa-building"></i>
               </div>
               <h4>Construction de Bâtiments</h4>
@@ -44,9 +42,12 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="0.6s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="0.6s"
+            >
+              <div className="icon color-3">
                 <i className="fas fa-igloo"></i>
               </div>
               <h4>Travaux de Fondation</h4>
@@ -56,9 +57,12 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="0.8s"
+            >
+              <div className="icon color-4">
                 <i className="fas fa-tools"></i>
               </div>
               <h4>Les Dernières Réparations Technologiques</h4>
@@ -68,9 +72,12 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="1s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="1s"
+            >
+              <div className="icon color-5">
                 <i className="fas fa-ship"></i>
               </div>
               <h4>Import-Export</h4>
@@ -80,42 +87,18 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div className="icon">
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="1.2s"
+            >
+              <div className="icon color-6">
                 <i className="fas fa-car"></i>
               </div>
               <h4>Location des Voitures</h4>
               <p>
-                Oholiab s’engage à vous offrir un service premium et une voiture
+                holiab s’engage à vous offrir un service premium et une voiture
                 de location qui vous conviennent.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div className="icon">
-                <i className="fas fa-car"></i>
-              </div>
-              <h4>Construction Ecologique</h4>
-              <p>
-                Le matériau écologique» ou «matériau biosourcé» répond aux
-                critères techniques habituellement exigés des matériaux de
-                construction performances techniques et fonctionnelles, etc.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4 col-sm-6">
-            <div className="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div className="icon">
-                <i className="fas fa-bus"></i>
-              </div>
-              <h4>Transport International</h4>
-              <p>
-                Le transport international devient un jeu d’enfant. Demande de
-                cotation. Un formulaire entièrement dynamique pour vous guider.
               </p>
             </div>
           </div>

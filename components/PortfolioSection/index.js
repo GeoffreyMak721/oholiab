@@ -1,118 +1,160 @@
 import React from "react";
 
+import Image from "next/image";
+
 export default function PortfolioSection() {
   return (
     <section id="portfolios" className="section">
       <div className="container">
         <div className="section-header">
-          <h2
-            className="section-title wow fadeIn"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          >
-            Nos <span>Réalisations</span>
-          </h2>
-          <hr className="lines wow zoomIn" data-wow-delay="0.3s" />
-          <p
-            className="section-subtitle wow fadeInDown"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          >
-            Aucun project n'est trop grand ou trop petit
+          <h2 className="section-title">Terminaux d’approvisionnement</h2>
+          <span>Terminaux</span>
+          <p className="section-subtitle">
+            L’afrique, l’Europe,l’Asie,l’Amérique et le Monde sont nos zones des
+            prédilections pour nous approvisionner en produits pétroliers finis.
           </p>
         </div>
         <div className="row">
           <div className="col-md-12">
-            {/* <div
-              className="controls text-center wow fadeInUp"
-              data-wow-delay=".6s"
-            >
+            <div className="controls text-center">
               <a
-                className="control mixitup-control-active btn btn-common"
+                className="filter active btn btn-common btn-effect"
                 data-filter="all"
               >
-                All
+                Tout
               </a>
-              <a className="control btn btn-common" data-filter=".marketing">
-                Design
+              <a
+                className="filter btn btn-common btn-effect"
+                data-filter=".design"
+              >
+                Info
               </a>
-              <a className="control btn btn-common" data-filter=".planning">
-                Development
+              <a
+                className="filter btn btn-common btn-effect"
+                data-filter=".development"
+              >
+                Transport
               </a>
-              <a className="control btn btn-common" data-filter=".research">
-                Print
+              <a
+                className="filter btn btn-common btn-effect"
+                data-filter=".print"
+              >
+                Réalisation
               </a>
             </div>
+          </div>
+        </div>
 
- */}
-            <div
-              id="portfolio"
-              className="row wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a className="overlay lightbox" href="/img/portfolio/1.jpg">
-                      <img src="/img/portfolio/1.jpg" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+        <div id="portfolio" className="row">
+          <div className="col-lg-4 col-md-6 col-xs-12 mix development print">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-1.jpg" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-1.jpg">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a className="overlay lightbox" href="/img/portfolio/2.jpg">
-                      <img src="/img/portfolio/2.jpg" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12 mix design print">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-2.jpg" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-2.jpg">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a className="overlay lightbox" href="/img/portfolio/3.png">
-                      <img src="/img/portfolio/3.png" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-3.png" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-3.png">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a className="overlay lightbox" href="/img/portfolio/4.png">
-                      <img src="/img/portfolio/4.png" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12 mix development design">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-4.jpg" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-4.jpg">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a
-                      className="overlay lightbox"
-                      href="/img/portfolio/5.jpeg"
-                    >
-                      <img src="/img/portfolio/5.jpeg" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-5.jpg" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-5.jpg">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <a
-                      className="overlay lightbox"
-                      href="/img/portfolio/6.jpeg"
-                    >
-                      <img src="/img/portfolio/6.jpeg" alt="" />
-                      <i className="lnr lnr-plus-circle item-icon"></i>
-                    </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12 mix print design">
+            <div className="portfolio-item">
+              <div className="shot-item">
+                <img src="img/portfolio/img-6.jpg" alt="" />
+                <div className="single-content">
+                  <div className="fancy-table">
+                    <div className="table-cell">
+                      <div className="zoom-icon">
+                        <a className="lightbox" href="img/portfolio/img-6.jpg">
+                          <i className="lni-zoom-in item-icon"></i>
+                        </a>
+                      </div>
+                      <a href="#">Afficher l'image</a>
+                    </div>
                   </div>
                 </div>
               </div>

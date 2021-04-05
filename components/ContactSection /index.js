@@ -3,135 +3,89 @@ import React from "react";
 export default function ContactSection() {
   return (
     <section id="contact" className="section">
-      <div className="container">
-        <div className="row ">
-          <div
-            className="col-lg-8 col-xs-12 wow fadeInDown"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          >
-            <div className="contact-block my-2">
-              <div className="section-header">
-                <h2
-                  className="section-title wow fadeIn"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="0.3s"
-                >
-                  Nous <span>contacter</span>
-                </h2>
-                <hr className="lines wow zoomIn" data-wow-delay="0.3s" />
-              </div>
-              <form id="contactForm">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        id="name"
-                        name="name"
-                        placeholder="Votre Nom"
-                        required
-                        data-error="Entrez votre nom"
-                      />
-                      <div className="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        placeholder="Votre Email"
-                        id="email"
-                        className="form-control"
-                        name="name"
-                        required
-                        data-error="Entrez votre email"
-                      />
-                      <div className="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div className="col-md-12">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        placeholder="Sujet"
-                        id="msg_subject"
-                        className="form-control"
-                        required
-                        data-error="Entrez le sujet"
-                      />
-                      <div className="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div className="col-md-12">
-                    <div className="form-group">
-                      <textarea
-                        className="form-control"
-                        placeholder="Votre Message"
-                        rows="11"
-                        data-error="Ecrivez votre message"
-                        required
-                      ></textarea>
-                      <div className="help-block with-errors"></div>
-                    </div>
-                    <div className="submit-button text-center">
-                      <button
-                        className="btn btn-common"
-                        id="submit"
-                        type="submit"
-                      >
-                        Envoyer
-                      </button>
-                      <div
-                        id="msgSubmit"
-                        className="h3 text-center hidden"
-                      ></div>
-                      <div className="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
+      <div className="contact-form">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Get In Touch</h2>
+            <span>Contact</span>
+            <p className="section-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos debitis.
+            </p>
           </div>
+          <div className="row">
+            <div className="col-lg-9 col-md-9 col-xs-12">
+              <div className="contact-block">
+                <div className="text-center">
+                  <h2>You are using Free Version</h2>
+                  <h4>
+                    Please, purchase full version to get all features and pages
+                  </h4>
+                  <br />
+                  <b>Including:</b>
+                  <p>- 4 Homepage Variations</p>
+                  <p>- All Elements and Features</p>
+                  <p>- Amazing Slider</p>
+                  <p>- Documentation File</p>
+                  <p>- Quick Support</p>
+                  <p>- Permission to Use in Commercial Projects</p>
+                  <p>- Footer Credit Removal</p>
+                  <p>- SASS Files</p>
+                  <br />
+                  <a
+                    href="https://rebrand.ly/essence-purchase-ud"
+                    target="_blank"
+                    className="btn btn-common btn-lg"
+                  >
+                    Purchase Now
+                  </a>
+                </div>
+              </div>
+            </div>
 
-          <div
-            className="col-lg-4 col-xs-12 wow fadeInDown"
-            data-wow-duration="1000ms"
-            data-wow-delay="0.3s"
-          >
-            <div className="contact-block my-2">
-              <div className="contact_info">
-                <div className="contact_title mt-30">
-                  <h5 className="title">COORDONÉES</h5>
-                </div>
-                <p></p>
+            <div className="col-lg-3 col-md-3 col-xs-12">
+              <div className="contact-deatils">
+                <div className="contact-info_area">
+                  <div className="contact-info">
+                    <i className="lni-map"></i>
+                    <h5>Location</h5>
+                    <p>1900 Pico Blvd, New York br Centernial, colorado</p>
+                  </div>
 
-                <div className="single_info d-flex">
-                  <div className="info_icon">
-                    <i className="far fa-map"></i>
+                  <div className="contact-info">
+                    <i className="lni-star"></i>
+                    <h5>E-mail</h5>
+                    <p>info@example.com</p>
                   </div>
-                  <div className="info_content media-body">
-                    <p>Immeuble CTC/16 ème niveau</p>
+
+                  <div className="contact-info">
+                    <i className="lni-phone"></i>
+                    <h5>Phone</h5>
+                    <p>+48 123 456 789</p>
                   </div>
-                </div>
-                <div className="single_info d-flex">
-                  <div className="info_icon">
-                    <i className="fas fa-phone"></i>
-                  </div>
-                  <div className="info_content media-body">
-                    <p>+243 80 888 008 4</p>
-                    <p></p>
-                  </div>
-                </div>
-                <div className="single_info d-flex">
-                  <div className="info_icon">
-                    <i className="fas fa-envelope-open-text"></i>
-                  </div>
-                  <div className="info_content media-body">
-                    <p>info@oholiab-sarl.com</p>
-                    <p></p>
-                  </div>
+
+                  <ul className="footer-social">
+                    <li>
+                      <a className="facebook" href="#">
+                        <i className="lni-facebook-filled"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="twitter" href="#">
+                        <i className="lni-twitter-filled"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="linkedin" href="#">
+                        <i className="lni-linkedin-fill"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="google-plus" href="#">
+                        <i className="lni-google-plus"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
