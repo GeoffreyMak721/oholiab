@@ -16,7 +16,7 @@ export default function AboutSection() {
         <div className="row">
           <div className="col-md-12 col-lg-6 col-xs-12">
             <img className="img-fluid" src="img/about/img2.png" alt="" />
-            <img className="img-fluid" src="img/about/img1.jpg" alt="" />
+            <img className="img-fluid" src="img/about/img1.jpeg" alt="" />
           </div>
           <div className="col-md-12 col-lg-6 col-xs-12">
             <h2 className="intro-title">Qui sommes-nous ?</h2>
