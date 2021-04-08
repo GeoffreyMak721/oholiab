@@ -14,10 +14,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name="keywords"
-          content={`Face aux grandes mutations énergétiques de l’heure, nous nous taillons une place de choix et non le moindre dans le secteur des hydrocarbures dans le monde. Aguerris et déterminé, nous le sommes.
-OHOLIAB a pour secteurs d’activité prioritaire, le trading pétrolier et l'affrètement des unités fluviales spécialisée pour le convoyage des produits pétroliers. Avec comme leitmotiv de numéro 1 mondial.
-
-Acteur majeur aux mutations de l’heure dans la chaine d’approvisionnement en République Démocratique du Congo et dans le monde, nous participons aux projets majeurs de relier l’ensemble du pays par un réseau de pipe line.`}
+          content={`Face aux grandes mutations énergétiques de l’heure, nous nous taillons une place de choix et non le moindre dans le secteur des hydrocarbures dans le monde. Aguerris et déterminé, nous le sommes. OHOLIAB a pour secteurs d’activité prioritaire, le trading pétrolier et l'affrètement des unités fluviales spécialisée pour le convoyage des produits pétroliers. Avec comme leitmotiv de numéro 1 mondial. Acteur majeur aux mutations de l’heure dans la chaine d’approvisionnement en République Démocratique du Congo et dans le monde, nous participons aux projets majeurs de relier l’ensemble du pays par un réseau de pipe line.`}
         />
         <meta
           name="viewport"
