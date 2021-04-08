@@ -173,7 +173,7 @@ export default function SubcribeSection() {
                 <div className="contact-info">
                   <i className="lni-star"></i>
                   <h5>E-mail</h5>
-                  <p>info@oholiab-sarl.com</p>
+                  <p>infos@oholiab-oil.com</p>
                 </div>
 
                 <div className="contact-info">

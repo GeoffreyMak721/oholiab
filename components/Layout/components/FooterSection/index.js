@@ -78,7 +78,7 @@ export default function FooterSection() {
                     <strong>E-mail :</strong>
                     {"  "}
                     <span>
-                      <a href="#">info@oholiab-sarl.com</a>
+                      <a href="#">infos@oholiab-oil.com</a>
                     </span>
                   </li>
                 </ul>

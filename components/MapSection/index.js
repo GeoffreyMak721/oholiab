@@ -8,7 +8,7 @@ export default function MapSection() {
           <div className="col-12 padding-0">
             <object
               style={{ border: 0, height: 450, width: "100%" }}
-              data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"
+              data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.5764029412453!2d15.314497114187597!3d-4.3021276475619645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a340b2e7b885b%3A0xa7f6dcc50a71fe40!2sCongo%20Trading%20Center!5e0!3m2!1sfr!2sde!4v1617894679480!5m2!1sfr!2sde"
             ></object>
           </div>
         </div>

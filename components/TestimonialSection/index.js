@@ -26,7 +26,7 @@ export default function TestimonialSection() {
 
                     <div className="author-info">
                       <h2>
-                        <a href="#">- NZAU NGOMA CAMILLE</a>
+                        <a href="#">- FRANCIS MPANGULA GAYAKA</a>
                       </h2>
                       <span>CEO, Oholiab sarl</span>
                     </div>
