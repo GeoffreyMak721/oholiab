@@ -28,15 +28,15 @@ export default function TestimonialSection() {
                       <h2>
                         <a href="#">- FRANCIS MPANGULA GAYAKA</a>
                       </h2>
-                      <span>CEO, Oholiab sarl</span>
+                      <span>CEO, Oholiab Sarl</span>
                     </div>
                   </div>
                   <div className="content-inner">
                     <p className="description">
                       “Au cours des dernières années, la technologie a
-                      grandement évolué la manière de travailler et Zenith
-                      Ressort de Kinshasa vous accompagne en ce sens. Le
-                      transport international devient un jeu d’enfants. ”
+                      grandement évolué la manière de travailler et Oholiab Sarl
+                      vous accompagne en ce sens. Le transport international
+                      devient un jeu d’enfants. ”
                     </p>
                     <span>
                       <i className="lni-star-filled"></i>
